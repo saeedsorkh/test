@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyDataEntryCustomView">
+        <attr name="label" format="string"/>
+        <attr name="icon" format="reference"/>
+        <attr name="is_show_icon" format="boolean"/>
+        <attr name="format" format="enum">
+            <enum name="TEXT" value="0"/>
+            <enum name="NUMBER" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
