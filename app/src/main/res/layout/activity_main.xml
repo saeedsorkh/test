@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+    <!--<com.example.myapplication.common.custom_view.MyDataEntryCustomView-->
+        <!--android:id="@+id/myController"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:format="TEXT"-->
+        <!--app:icon="@drawable/ic_face_black_24dp"-->
+        <!--app:is_show_icon="true"-->
+        <!--app:label="userName" />-->
+
+    <!--<com.example.myapplication.common.custom_view.MyDataEntryCustomView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:format="NUMBER"-->
+        <!--app:icon="@drawable/ic_face_black_24dp"-->
+        <!--app:is_show_icon="false"-->
+        <!--app:label="Password" />-->
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
